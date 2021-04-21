@@ -1,0 +1,131 @@
+﻿<HTML>
+
+<HEAD>
+<TITLE>Тестування</TITLE>
+<meta http-equiv="Content-Type" charset="WINDOWS-1251">
+<LINK rel="stylesheet" type="text/css" media="screen" href="js/menus.css">
+<SCRIPT SRC="js/tems.JS"></SCRIPT>
+<SCRIPT SRC="js/scripts1.JS"></SCRIPT>
+</HEAD>
+<body ONLOAD="starts()">
+
+<H1>
+ Івано-Франківський національний медичний університет<br>
+ Кафедра медичної інформатики, медичної і біологічної фізики  <hr>
+ </H1>
+
+<H2>Cторiнка тестування </H2>
+
+<br>
+<Div > <!-- main --> 
+<ul id="main"><p>Факультети</p></ul>
+<br>
+<br>
+<hr>
+	<div style="text-align: center;">&copy; 2013 Павлюк І.Р.</div>
+</div>
+
+<div id="texxt"><BR>
+<div id="induf" style="text-align: center;">
+<div id="tema">У Вас відключена можливість виконувати <BR>Java Script-сценарії !!!</div>
+<hr>
+<table>
+<tr><td><label for="name">Прізвища та ініціали:</label></td><td><input size="30" id="name" type="text" value="" placeholder=" Формат:  Іванів І.І."></td></tr>
+<tr><td><label for="grup">Група:</label></td><td><input size="30" id="grup" type="text" value=""  placeholder=" Формат:  10A+" ></td></tr>
+</table >
+
+    <hr><center>
+<table><tr>
+<td class="botton" colspan="3" onmouseover="this.style.background='#fffa90'"  onmouseout="this.style.background='#ddaa00'" ONCLICK="identifik();">ПОЧАТИ ТЕСТУВАННЯ </td><td width="15%" ></td>
+<td></td>
+<td class="botton" onmouseover="this.style.background='#fffa90'"  onmouseout="this.style.background='#ddaa00'" ONCLICK="self.close();">ПОВЕРНУТИСЯ</td>
+</tr></table>
+<hr>
+<Div >
+<I STYLE="font: 15pt; color: #8B0000">
+Вводьте коректні дані згідно формату!<br> У разі недотримання - буде заблоковано доступ та анульовані всі результати для цього IP!
+<br> Непотрібно вводити набір літер! <b>Ваша оцінка буде прив`язана до ІР.</b> Зараховується перший результат!</I>
+</Div >
+</center>
+</div>
+
+
+<div id="test">
+<br><br>
+<div style="text-align: center;"><center><TABLE class="timer">
+  <TR>
+    <TD > Кiлькiсть запитань: </TD>
+    <TD ID="vskp" > 0 </TD>	
+    <TD>. Номер запитання: </TD>
+    <TD ID="kp" >0 </TD>	
+    <TD>. Час, що залишився : </TD>
+    <TD ID="timelimit" > 0 </TD>
+  </TR>
+ </TABLE></center>
+</div>
+<hr>
+ 
+ 
+ <TABLE class ="cnop"  >
+   <TR >
+     <TD > <A href="javascript:pred()"> &lt;&lt; ПОПЕРЕДНЄ ПИТАННЯ </A></TD>
+     <TD > </TD>
+     <TD > <A href="javascript:next()">НАСТУПНЕ ПИТАННЯ&gt;&gt; </A></TD>
+   </TR>
+ </TABLE>
+
+ <hr>
+<TABLE class="oput" BORDER=1 ONCLICK="table_cl(event)"  ONDBLCLICK="db_table_cl()"> 
+    <TR class="oput_tr" >
+	  <TD ID="line_qu"><IMG SRC="IMG/qu_03.gif"  ALT="Це ваше запитання" > </TD>
+      <TD ID="qu"> </TD>
+    </TR>
+	  
+	<TR id="colspan" ></TR>
+	<TR>
+	  <TD ID="line_a"><IMG SRC="IMG/an1_03.gif"    alt=""> </TD>
+      <TD ID="an_a" > </TD>
+    </TR>
+    <TR>
+	  <TD ID ="line_b"><IMG SRC="IMG/an2_03.gif"  alt="" > </TD>
+      <TD  id="an_b"></TD>
+    </TR>
+    <TR>
+	  <TD ID ="line_c"><IMG SRC="IMG/an3_03.gif"    alt="" > </TD>
+      <TD  id="an_c" ></TD>
+    </TR>
+    <TR>
+	  <TD ID ="line_d"> <IMG SRC="IMG/an4_03.gif"   alt="" > </TD>
+      <TD  id="an_d" > </TD>
+    </TR>
+    <TR>
+	  <TD ID ="line_e"><IMG SRC="IMG/an5_03.gif"     alt=""> </TD>
+      <TD  id="an_e" > </TD>
+    </TR>
+    <TR>
+	  <TD ID ="line_f"><IMG SRC="IMG/an6_03.gif"    alt=""> </TD>
+      <TD  id="an_f" > </TD>
+    </TR>
+</TABLE>
+
+ <TABLE class="vidpovid">
+   <TR>
+     <TD>Вибраний Вами варiант вiдповiдi: </TD>
+     <TD ID="var_v">  Ви ще не вiдповiли на це питання  </TD></TR>
+ </TABLE>
+<hr>
+ <TABLE  class ="cnop">
+   <TR ALIGN="center">
+     <TD > <A href="javascript:pred()"  title="Це ваше запитання"> &lt;&lt; ПОПЕРЕДНЄ ПИТАННЯ </A></TD>
+     <TD > <A href="javascript:testend()" >ЗАВЕРШИТИ ТЕСТУВАННЯ</A></TD>
+	 <TD > <A href="javascript:next()">НАСТУПНЕ ПИТАННЯ&gt;&gt;</A></TD>
+   </TR>
+ </TABLE>
+<hr>
+
+ <div style="text-align: center;"><span COLOR="#cc00f0">Успiху ВАМ!</span></div>
+
+ </DIV> 
+</DIV>
+</body>
+</html>

@@ -1,0 +1,182 @@
+﻿@charset "windows-1251";
+body {
+COLOR: #000044; 
+FONT-SIZE: 10pt;
+background: #eeeeff;
+font-family:"Times New Roman",Georgia,Serif;
+}
+table	{
+text-align: center;
+}
+tr{text-align: center;}
+table.timer {
+
+FONT-SIZE: 18pt;
+}
+#vskp, #kp,#timelimit{
+FONT-SIZE: 22pt;
+color: #FF0000;
+font-weight: bold;
+}
+table.vidpovid  {
+ font-size:16pt;
+color: #aa00aa;
+text-align: left; 
+}
+#var_v{
+BACKGROUND-COLOR: ffff70;
+font-weight: bold;
+color: #000000;
+}
+.cnop{
+WIDTH:100%;
+FONT:12PT;
+}
+.cnop td{
+WIDTH:33%;
+}
+table.oput{
+text-align: left; 
+WIDTH:100%;
+}
+table.oput td {
+text-align: left; 
+cursor:pointer; 
+ font-size:14pt;
+empty-cells: hide;
+ }
+#line_a img, 
+#line_b img ,
+#line_c img ,
+#line_d img ,
+#line_e img ,
+#line_f img{
+WIDTH:70px;
+cursor:e-resize;
+empty-cells: hide;
+}
+#line_f{
+
+}
+tr.oput_tr  td{
+ font-size:19pt;
+cursor: help;
+}
+
+#line_qu img{
+WIDTH:70px;
+cursor: help;
+}
+#qu{
+cursor: help;
+text-indent: 20px;
+}
+table.oput #qu{
+WIDTH:98%;
+
+}
+#induf{
+     text-align: center;
+     margin: 20%; /* Отступы вокруг элемента */
+    margin-top:7%;
+    background: #fd0; /* Цвет фона */
+    padding: 14px; /* Поля вокруг текста */
+    font-weight: bold;
+	 font-size:19pt;
+	 border: 3px solid #cccccc;
+}
+#induf table{ 
+font-weight: bold;
+width:580px;
+font-size:18pt;
+}
+#induf div{font-size:22pt;}
+input{cursor: help;}
+#test {
+display:none;
+}/*  ,#test_end*/
+hr{
+color: 	#ffa500;
+}
+td.botton  {
+border: 5px outset #ddaa00;
+background:#ddaa00;
+color: #aa0000;
+font-size:16pt;
+padding: 0px 5px;
+cursor:pointer; 
+empty-cells: hide;
+}
+#colspan{
+ background: 	#eeeeff;
+ HEIGHT: 4px;
+ COLOR: #eeeeff;
+ cursor: default;
+ empty-cells: hide; 
+}
+h1,h2{
+text-align: center;
+font-family:"Times New Roman",Georgia,Serif;
+}
+
+#test a{FONT-SIZE: 14pt;}
+#main{
+cursor:pointer; 
+FONT-SIZE: 18pt;
+font-weight: bold;
+font-style: italic;
+font-family:"Times New Roman",Georgia,Serif;
+}
+  ul.plus,#texxt{
+display:none;
+  }
+ 
+ ul.minus{
+ display:block;
+  }
+
+
+a:hover{color: #aa0000; font-weight: bold;text-decoration:none;}
+a:link {color: #aa0000;  font-weight: bold;text-decoration:none;}
+a:visited {color:#aa0000;  font-weight: bold;text-decoration:none;}
+a:active {color: #aa0000; font-weight: bold;text-decoration:none;}
+#di{
+ cursor: pointer;
+text-align: right; 
+FONT-SIZE: 11pt; 
+color: green;
+}
+#rez3 td{
+text-align: justify; 
+FONT-SIZE: 11pt; 
+color: green;
+}
+
+ #rez2, #rez3{ display: none; }
+ 
+ #up{
+    position: fixed;
+    top: 40px;
+    left: 34px;
+    cursor: pointer;
+    font-size: 22pt;
+    color: red;
+    z-index: 5;
+
+}
+
+/*стиль для кнопки
+#raz,#raz_all { display: none; }
+*/
+ /*label[for="raz"] {  вид CSS кнопки 
+  cursor: pointer; }
+ border: 1px;
+  border-color: #82CD38;  Цвет границы 
+  border-style: dotted;
+  background: #32CD32;
+  padding: 1px 4px;
+  border-radius: 1px;
+  color: #fff;
+  
+#raz:checked  label[for="raz"] { background: #fff; }
+#raz:checked   { display: block; }*/
